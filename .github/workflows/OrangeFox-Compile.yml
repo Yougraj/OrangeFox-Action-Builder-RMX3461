@@ -20,7 +20,7 @@ on:
       DEVICE_TREE:
         description: "OrangeFox Device Tree"
         required: true
-        default: "https://github.com/realme9se-trees/android_device_realme_ice"
+        default: "https://github.com/cd-Crypton/custom_recovery_tree_realme_nashc"
       DEVICE_TREE_BRANCH:
         description: "OrangeFox Device Tree Branch"
         required: true
@@ -28,11 +28,11 @@ on:
       DEVICE_PATH:
         description: "Specify your Device Path"
         required: true
-        default: "device/realme/ice"
+        default: "device/realme/nashc"
       DEVICE_NAME:
         description: "Specify your Device Codename"
         required: true
-        default: "ice"
+        default: "nashc"
       BUILD_TARGET:
         description: "Specify your Build Target"
         required: true
